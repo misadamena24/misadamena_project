@@ -1,0 +1,20 @@
+{
+    "Kurset": {
+        "Algebra": {
+            "Profesori": "Artan",
+            "Kreditet": 7,
+            "Notat": [
+                9.0
+            ]
+        },
+        "Literature": {
+            "Profesori": "Alesia",
+            "Kreditet": 5,
+            "Notat": []
+        }
+    },
+    "Rekomandimet": {
+        "Titulli": "Philosophy and Fun of Algebra",
+        "Url": "https://www.gutenberg.org/files/21154/21154-index.html"
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8" />
+    <title>Profili i {{ username }}</title>
+</head>
+<body>
+    <h1>Studenti: {{ username }}</h1>
+    <h2>Kurset:</h2>
+    <ul>
+        {% for kurs, info in kurset.items() %}
+            <li>
+                <strong>{{ kurs }}</strong> - Notat: {{ info.Notat | join(", ") }}
+            </li>
+        {% else %}
+            <li>Nuk ka kurse të regjistruara.</li>
+        {% endfor %}
+    </ul>
+    <h2>Rekomandimi i librit:</h2>
+    <p>{{ rekomandimi.Titulli or "Nuk ka rekomandime" }}</p>
+    {% if rekomandimi.Url %}
+        <a href="{{ rekomandimi.Url }}" target="_blank">Lexo librin ketu</a>
+    {% endif %}
+</body>
+</html>

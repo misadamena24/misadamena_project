@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista e studenteve</title>
+</head>
+<body>
+    <h1>Studentet ekzistues</h1>
+    <ul>
+    {% for student in studentet %}
+        <li><a href="/studenti/{{ student }}">{{ student }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

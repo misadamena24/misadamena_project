@@ -1,0 +1,23 @@
+{
+    "Kurset": {
+        "Math": {
+            "Profesori": "Arben",
+            "Kreditet": 7,
+            "Notat": [
+                9.0,
+                9.0
+            ]
+        },
+        "Literature": {
+            "Profesori": "Klea",
+            "Kreditet": 7,
+            "Notat": [
+                3.0
+            ]
+        }
+    },
+    "Rekomandimet": {
+        "Titulli": "Frankenstein; Or, The Modern Prometheus",
+        "Url": "https://www.gutenberg.org/ebooks/84.html.images"
+    }
+}
